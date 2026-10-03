@@ -1,0 +1,14 @@
+SANRIO FRIENDS - PAQUETE PLANO (33 archivos sueltos, sin carpetas)
+
+1) En GitHub crea un repositorio NUEVO y pulsa "uploading an existing file".
+2) Arrastra TODOS los archivos de esta carpeta (son 33, no hay subcarpetas). Commit changes.
+3) Mueve build.yml a su carpeta (esto es lo unico manual):
+   - En el repositorio pulsa en build.yml -> icono del lapiz (Edit).
+   - Pulsa en el cuadro del nombre, ve al principio (tecla Inicio) y escribe:  .github/workflows/
+     Debe quedar:  .github/workflows/build.yml
+   - Commit changes.  El Build arranca solo (pestana Actions).
+   Alternativa: Add file -> Create new file, nombre ".github/workflows/build.yml" y pega el contenido de build.yml.
+4) Cuando el Build salga en verde, descarga el artefacto "sanrio-friends" (contiene el .jar).
+
+El Build coloca solo cada archivo en su carpeta y genera texturas, modelos y estructuras.
+Si sale en rojo, copia las lineas que empiezan por "error:".
